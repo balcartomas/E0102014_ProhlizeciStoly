@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weaving - First inspection</string>
+
+    <!-- *** Http responses *** -->
+    <string name="http_ok">The request has succeeded</string>
+    <string name="http_created">The request has been fulfilled and resulted in a new resource being created</string>
+    <string name="http_accepted">The request has been accepted for processing, but the processing has not been completed</string>
+    <string name="http_no_content">The server has fulfilled the request but does not need to return an entity-body, and might want to return updated metainformation</string>
+    <string name="http_not_modified">The document has not been modified</string>
+    <string name="http_bad_request">The request could not be understood by the server due to malformed syntax</string>
+    <string name="http_unauthorized">Failed to authenticate user</string>
+    <string name="http_forbidden">The server understood the request, but is refusing to fulfill it</string>
+    <string name="http_not_found">The server has not found anything matching the Request-URI</string>
+    <string name="http_bad_method">The method specified in the Request-Line is not allowed for the resource identified by the Request-URI</string>
+    <string name="http_not_acceptable">The resource identified by the request is only capable of generating response entities which have content characteristics not acceptable according to the accept headers sent in the request</string>
+    <string name="http_proxy_auth">The client must first authenticate itself with the proxy</string>
+    <string name="http_client_timeout">The client did not produce a request within the time that the server was prepared to wait</string>
+    <string name="http_gone">The requested resource is no longer available at the server and no forwarding address is known</string>
+    <string name="http_length_required">The server refuses to accept the request without a defined Content- Length</string>
+    <string name="http_entity_too_large">The server is refusing to process a request because the request entity is larger than the server is willing or able to process</string>
+    <string name="http_req_too_long">The server is refusing to service the request because the Request-URI is longer than the server is willing to interpret</string>
+    <string name="http_unsupported_type">The server is refusing to service the request because the entity of the request is in a format not supported by the requested resource for the requested method</string>
+    <string name="http_internal_error">The server encountered an unexpected condition which prevented it from fulfilling the request</string>
+    <string name="http_not_implemented">The server does not support the functionality required to fulfill the request</string>
+    <string name="http_bad_gateway">The server, while acting as a gateway or proxy, received an invalid response from the upstream server it accessed in attempting to fulfill the request</string>
+    <string name="http_unavailable">The server is currently unable to handle the request due to a temporary overloading or maintenance of the server</string>
+    <string name="http_gateway_timeout">The server, while acting as a gateway or proxy, did not receive a timely response from the upstream server specified by the URI</string>
+    <string name="http_version">The server does not support, or refuses to support, the HTTP protocol version that was used in the request message</string>
+    <!-- ****** -->
+
+    <string name="login">Login</string>
+    <string name="login_label">Fill in the person\'s ID number to log in</string>
+    <string name="login_field_placeholder">Person identification number</string>
+    <string name="log_in_button">Log in</string>
+
+    <string name="app_version">Version:</string>
+
+    <string name="permission_title">Permission required</string>
+    <string name="permission_required">Permission is required to use the application. If you do not confirm the permission, the application will not be used.</string>
+    <string name="permission_declined_title">Permission is permanently denied.</string>
+    <string name="permission_declined_message">Permission is permanently denied. Contact the helpdesk and describe what the program does.</string>
+
+    <string name="update_in_progress_title">Checking for updates</string>
+    <string name="update_in_progress_message">The application version is being checked. Wait a moment.</string>
+    <string name="update_error_title">Update failed</string>
+    <string name="update_error_message">An unexpected error occurred while checking for an update. Try again by pressing the icon in the lower right corner</string>
+    <string name="update_not_updated_title">New update</string>
+    <string name="update_not_updated_message">A new application update needs to be installed.</string>
+    <string name="update_on_wifi_not_checked_title">Check for update</string>
+    <string name="update_on_wifi_not_checked_message">Check the app update by pressing the icon in the lower right corner</string>
+
+    <string name="no_connection_title">No connection</string>
+    <string name="no_connection_message">The application has no network connection. Run to the designated location and try again.</string>
+
+    <string name="empty_field">Blank field</string>
+    <string name="empty_authorization_field">Fill in all the fields for login</string>
+
+    <string name="accept">Accept</string>
+    <string name="reject">Reject</string>
+    <string name="understand">I understand</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">Error</string>
+
+    <string name="about_app">About application</string>
+    <string name="about_app_desc">Application information</string>
+
+    <string name="log_out">Log out</string>
+    <string name="log_out_desc">Logs out the currently logged in user</string>
+    <string name="log_out_message">Are you sure you want to log out?</string>
+    <string name="current_user">Logged in person</string>
+    <string name="person_id">Person ID: %1$d</string>
+
+    <string-array name="information_label_array">
+        <item>Application name</item>
+        <item>Application number</item>
+        <item>Application version</item>
+        <item>Last update</item>
+        <item>Creator</item>
+        <item>Company</item>
+    </string-array>
+
+    <!-- Neměnit pozice string-array -> závislost v kódu -->
+    <string-array name="information_value_array">
+        <item>@string/app_name</item>
+        <item>----</item>
+        <item>----</item>
+        <item>----</item>
+        <item>Tomáš Balcar</item>
+        <item>VEBA, textilní závody a.s.</item>
+    </string-array>
+
+    <string name="loading">Loading…</string>
+    <string name="loading_message">Data is being prepared. Hold on a moment</string>
+
+    <string name="unauthorized_user">Failed to verify person</string>
+    <string name="unknown_user">Unknown person</string>
+    <string name="search">Search</string>
+
+    <string name="uninitialized_exception_title">Unknown error</string>
+    <string name="uninitialized_exception_message">Code execution error. Cause unknown.</string>
+    <string name="api_error">API error</string>
+
+    <!-- END OF DEFAULT VEBA APPLICATIONS STRINGS -->
+</resources>

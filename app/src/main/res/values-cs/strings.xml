@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tkalcovna - První kontrola</string>
+
+    <!-- *** Http responses *** -->
+    <string name="http_accepted">Požadavek byl přijat ke zpracování, ale nebyl ještě dokončen</string>
+    <string name="http_bad_gateway">Server je přetížen nebo ještě není připraven odpovídat na dotazy</string>
+    <string name="http_bad_method">Požadavek byl zavolán na zdroj s metodou, kterou nepodporuje</string>
+    <string name="http_bad_request">Požadavek nemůže být vyřízen, poněvadž byl syntakticky nesprávně zapsán</string>
+    <string name="http_client_timeout">Vypršel čas vyhrazený na zpracování požadavku</string>
+    <string name="http_created">Výsledkem odpovědi je vytvoření nového zdroje identifikovatelného dle URI</string>
+    <string name="http_entity_too_large">Server neakceptoval požadavek - požadované množství je příliš velké</string>
+    <string name="http_forbidden">Požadavek byl legální, ale server odmítl odpovědět</string>
+    <string name="http_gateway_timeout">Odpověď nebyla obdržena v požadovaném čase</string>
+    <string name="http_gone">Požadovaný zdroj není dostupný</string>
+    <string name="http_internal_error">Při zpracovávání požadavku serverem došlo ke blíže nespecifikované chybě</string>
+    <string name="http_length_required">Server nepřijal požadavek, který neobsahuje definici Content-Length</string>
+    <string name="http_no_content">Server úspěšně zpracoval požadavek, ale nevrací žádný obsah</string>
+    <string name="http_not_acceptable">Server vygeneroval odpověď, která není klientem podporována</string>
+    <string name="http_not_found">Požadovaný zdroj nebyl nalezen</string>
+    <string name="http_not_implemented">Nebyla rozpoznána metoda požadavku, nebo server tuto metodu neovládá</string>
+    <string name="http_not_modified">Zdrojový dokument se od posledního požadavku nezměnil</string>
+    <string name="http_ok">Úspěšný HTTP požadavek</string>
+    <string name="http_proxy_auth">Klient není autentizován proxy serverem</string>
+    <string name="http_req_too_long">URI požadavku je příliš dlouhé</string>
+    <string name="http_unauthorized">Nepovedlo se ověřit uživatele</string>
+    <string name="http_unavailable">Služba je nedostupná. Způsobeno přetížením serveru nebo z důvodu údržby</string>
+    <string name="http_unsupported_type">Požadavek obsahuje serverem nepodporovaný typ média, a proto nebyl vykonán</string>
+    <string name="http_version">Server nepodporuje verzi protokolu HTTP, která byla využita v požadavku</string>
+    <!-- ****** -->
+
+    <string name="login">Přihlášení</string>
+    <string name="login_label">Vyplňtě ID číslo osoby pro přihlášení</string>
+    <string name="login_field_placeholder">Identifikační číslo osoby</string>
+    <string name="log_in_button">Přihlásit se</string>
+
+    <string name="app_version">Verze:</string>
+
+    <string name="permission_title">Je vyžadováno povolení</string>
+    <string name="permission_required">Povolení je potřeba pro použití aplikace. Pokud povolení nepotvrdíte, aplikace nepůjde používat.</string>
+    <string name="permission_declined_title">Povolení je permanentně zamítnuto.</string>
+    <string name="permission_declined_message">Povolení je permanentně zamítnuto. Kontaktujte helpdesk a popiště co program dělá.</string>
+
+    <string name="update_in_progress_title">Kontrola aktualizací</string>
+    <string name="update_in_progress_message">Probíhá kontrola verze aplikace. Chvilku vyčkejte.</string>
+    <string name="update_error_title">Aktualizace se nezdařila</string>
+    <string name="update_error_message">Při kontrole aktualizace nastala neočekávaná chyba. Zkuste to znovu pomocí stiskutí ikony v pravém dolnímu rohu</string>
+    <string name="update_not_updated_title">Nová aktualizace</string>
+    <string name="update_not_updated_message">Je třeba nainstalovat novou aktualizaci aplikace.</string>
+    <string name="update_on_wifi_not_checked_title">Zkontrolujte aktualizaci</string>
+    <string name="update_on_wifi_not_checked_message">Zkontrolujte aktualizaci aplikace pomocí stiskutí ikony v pravém dolnímu rohu</string>
+
+    <string name="no_connection_title">Žádné připojení</string>
+    <string name="no_connection_message">Aplikace nemá připojení k síti. Běžte na určené místo a zkuste to znovu.</string>
+
+    <string name="empty_field">Prázdné pole</string>
+    <string name="empty_authorization_field">Doplňte všechna pole pro přihlášení</string>
+
+    <string name="accept">Přijmout</string>
+    <string name="reject">Zamítnout</string>
+    <string name="understand">Rozumím</string>
+    <string name="cancel">Zrušit</string>
+    <string name="error">Chyba</string>
+
+    <string name="about_app">O aplikaci</string>
+    <string name="about_app_desc">Informace o aplikaci</string>
+
+    <string name="log_out">Odhlásit se</string>
+    <string name="log_out_desc">Odhlásí aktuálně přihlášeného uživatele</string>
+    <string name="log_out_message">Opravdu se chcete odhlásit?</string>
+    <string name="current_user">Přihlášená osoba</string>
+    <string name="person_id">ID osoby: %1$d</string>
+
+    <string-array name="information_label_array">
+        <item>Název aplikace</item>
+        <item>Číselné označení aplikace</item>
+        <item>Verze aplikace</item>
+        <item>Poslední aktualizace</item>
+        <item>Vytvořil</item>
+        <item>Firma</item>
+    </string-array>
+
+    <!-- Neměnit pozice string-array -> závislost v kódu -->
+    <string-array name="information_value_array">
+        <item>@string/app_name</item>
+        <item>----</item>
+        <item>----</item>
+        <item>----</item>
+        <item>Tomáš Balcar</item>
+        <item>VEBA, textilní závody a.s.</item>
+    </string-array>
+
+    <string name="loading">Načítání…</string>
+    <string name="loading_message">Probíhá příprava dat. Chvilku vydržte</string>
+
+    <string name="unauthorized_user">Nepovedlo se ověřit osobu</string>
+    <string name="unknown_user">Neznámá osoba</string>
+    <string name="search">Vyhledávání</string>
+
+    <string name="uninitialized_exception_title">Neznámá chyba</string>
+    <string name="uninitialized_exception_message">Chyba při provedení kódu. Příčina neznámá.</string>
+    <string name="api_error">Chyba na API</string>
+
+    <!-- END OF DEFAULT VEBA APPLICATIONS STRINGS -->
+</resources>
